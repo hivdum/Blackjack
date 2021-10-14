@@ -11,7 +11,10 @@ class blackjack{
           Scanner scan = new Scanner(System.in);
           double card1 = (1 + (Math.random()*10));
           double card2 = (1 + (Math.random()*10));
-          
+          int car1 = (int)card1;
+          int car2 = (int)card2;
+          System.out.println("Your current hand is " + car1 + " and " + car2 + " = " + (car1 + car2));
+          System.out.println("Would you like another card? Inputs: Yes or No");
                               
      }
 
